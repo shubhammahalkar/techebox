@@ -1,0 +1,15 @@
+ 
+
+#shopping{
+    color: orange;
+}
+ #zonebg{
+    background-image: url('../img/p1.png');
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: center;
+    /* background-image: opacity(75%); */
+}
+
+
+  

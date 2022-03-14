@@ -1,0 +1,70 @@
+/*
+ *
+ * Rotech
+ * custom-style.css
+ * Developed By : Sagar Maher
+ * Coding Visions Infotech Pvt. Ltd.
+ * http://codingvisions.com/
+ * 6/28/20 8:25 PM
+ *
+ */
+
+/* your custom style goes here */
+
+.img-responsive{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.key_features {
+    text-align: center;
+    display: inline-flex;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.key_features_holder {
+    display: inline-table;
+}
+
+.key_features_image{
+    height: 50px;
+}
+
+.key_features_div{
+    width: 100%;
+}
+
+.key_features_box{
+    display: block;
+}
+
+
+.checkbox:checked + .label{
+    background:#7B7484;
+    color:#231733;
+}
+
+.checkbox:checked ~ .social {
+    opacity:1;
+    transform:scale(1) translateY(-40px);
+    margin-left: 40px;
+}
+
+.label_share {
+    background: #377dff;
+    font-size:16px;
+    cursor:pointer;
+    margin:0;
+    padding:5px 10px;
+    border-radius:10%;
+    color:#7B7484;
+}
+
+.social {
+    transform-origin:50% 0%;
+    transform:scale(0) translateY(-40px);
+    opacity:0;
+    transition:.5s;
+}

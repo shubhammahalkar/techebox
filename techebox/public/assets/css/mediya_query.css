@@ -1,0 +1,645 @@
+/* If the screen size is 600px or less, set the font-size of min to 30px */
+/* If the screen size is 601px or more, set the font-size of max to 80px */
+
+@media (min-width: 1500px){
+    .container {
+        max-width: 1400px;
+    }
+    }
+    @media (min-width: 768px) {
+
+
+        .footer_box{
+            display: none;
+        }
+    }
+
+
+    @media (min-width: 820px) {
+
+        .mediaforblueline{
+            width: 105.5%;
+            margin-left: -14px;
+        }
+
+    }
+
+
+    @media (min-width: 1200px) {
+        .mobile-device-nav{
+            visibility: hidden;
+            position: fixed;
+        }
+    }
+    @media (min-width: 1400px) {
+        .mobile-device-nav{
+            visibility: hidden;
+            position: fixed;
+        }
+    }
+    /* @media  screen and (min-device-width : 820px){
+        .marginleftoffer{
+            margin-left: -28px;
+
+        }
+        .btn-widthandflex{
+            display: flex;
+            width: 50%;
+        }
+
+    } */
+
+     @media  screen and (min-device-width : 320px) and (max-device-width :768px) {
+
+        .container {
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .menu-item-div{
+          display: none;
+        }
+        .sub-nav > li > a {
+            float: left;
+
+        }
+        .margintopbtn{
+            margin-top: 8px;
+            text-align: center;
+        }
+    .pluscenter{
+        text-align: center !important;
+    }
+        .btn-widthandflex{
+            display: flex;
+            width: 50%;
+        }
+        .margintop{
+            margin-top: 7px;
+            align-items: baseline;
+        }
+        .buy-with{
+            padding: 0px;
+        width: fit-content;
+        margin-left: 96px;
+    }
+
+
+        .navbar {
+            margin-top: 15px;
+        }
+
+        .zone-item{
+            visibility: hidden;
+        }
+        .navbar .boreder-menu{
+            visibility: hidden;
+        }
+
+        .mobile-device-nav{
+         background: linear-gradient(55deg,#F09022,#e99E28,#fbb03b);
+         align-items: center;
+           position:relative;
+
+
+        }
+       .mobile-device-nav{
+           line-height: 0.5;
+       }
+       .zone-text{
+        line-height: 1;
+        font-size: 14px;
+       }
+        #logo{
+            margin-left:-2px;
+
+
+        }
+        .logomargin{
+            margin-left: -10px;
+        }
+
+        .logo-header-color {
+            background: var(--l-black);
+            padding-bottom: 10px;
+        }
+        .category-carousel{
+            display: inline-block;
+          height: 140px;
+        }
+           /* #header.active {
+             box-shadow: 0px 5px 9px #0505058a;
+         } */
+         .box_cart{
+             margin-right: -2px;
+         }
+        .heart{
+           float: right;
+            font-size: 26px;
+        }
+
+
+
+        .delivery_item span {
+         font-size: 10px;
+          font-weight: 600;
+        padding: 0rem 0px;
+         margin-top: 30px;
+         color: #3b485b;
+         text-align: center;
+         display: flex;
+     }
+     .footer_box{
+         display: none;
+     }
+     .delivery_item {
+          display: flex;
+         margin: 0px 32px;
+         padding: 0;
+     }
+
+
+    .gammer_item img{
+        width: 40px;
+        height: 40px;
+    }
+    .gammer_item span{
+        font-size: 12px;
+        text-align: center;
+    }
+     .gammer{
+        border-radius: 0;
+        -webkit-appearance: none;
+     }
+     .bottom_itam .time-icon img {
+         width: 47px;
+         height: 53px;
+         margin-top: 8px;
+         margin-left: -23px;
+     }
+     .bottom-text-first {
+         font-size: 8px;
+         color: var(--white);
+         font-weight: 700;
+         text-shadow: 5px 3px 11px rgb(0 0 0 / 20%);
+         margin-left: -15px;
+
+     }
+     .botton-text-second {
+         font-size: 7px;
+         font-weight: 600;
+         color: var(--gold);
+         text-shadow: 5px 3px 11px rgb(0 0 0 / 40%);
+     }
+
+     .mediya-h4
+     {
+         font-size: 0.9rem;
+     }
+     .b-mediya-h4 {
+         font-size: 0.7rem;
+     }
+     .deals-of {
+         margin: 0px 8px;
+         padding-top: 1rem;
+     }
+     .deals_day_contain h4 {
+         color: #ffbc00;
+         font-weight: 600;
+         font-size: 33px;
+         line-height: 100px;
+         margin-left: 3px;
+         margin-top: -18px;
+         text-align: center;
+          margin-bottom: -18px;
+     }
+     .deals_day_contain h2 {
+         color: #fff;
+         font-size: 26px;
+         font-weight: 600;
+         letter-spacing: 1px;
+          text-align: center;
+      }
+     .deals_day .aiz-card-box{
+
+      margin-right: 15px;
+     }
+
+     .recently_left_text {
+         background-color: #1c252c;
+         font-size: 10px;
+         overflow: hidden;
+     }
+     .down-padding
+     {
+         padding: 0;
+     }
+     .main-down-img
+     {
+            padding: 0rem 57px;
+         margin: 1rem 0rem;
+     }
+     .main-down-img img
+     {
+             height: 50%;
+         width: 81%;
+     }
+     .download-heading > h3 {
+         width: 100%;
+         max-width: 433px;
+         font-size: 24.4px;
+         font-weight: bold;
+         line-height: 1.33;
+         color: #222222;
+     }
+     .down-inner-padding
+     {
+         margin: -3rem 0;
+     }
+     .different-products h2 {
+         color: #f9ffff;
+         line-height: 57px;
+         font-size: 18px;
+       text-align: center;
+     }
+     .border-hr{
+      margin-left: 20% !important;
+     }
+     .subscribe h1 {
+         font-size: 25px;
+         margin-top: 18px;
+         margin-bottom: 14px;
+         text-align: center;
+     }
+     .input_sub{
+         align-items: center;
+
+     }
+     .aiz-carousel.gutters-10 .carousel-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .marginleftoffer{
+        margin-left: -28px;
+
+    }
+    .margin-left-2{
+        margin-left: 2%;
+    }
+     .subscribe input[type="text"] {
+         width: 60%;
+         color: #606060;
+         font-size: 15px;
+         padding: 11px 10px;
+         border: 0px solid #B9B9B9;
+         outline: none;
+         margin: 5px -5px 0 0;
+         font-family: 'Roboto', sans-serif;
+         text-align: left;
+         border-radius: 6px 0px 0px 7px;
+         margin-left: -50%;
+         margin-top: 30px;
+     }
+     .mediya-h4 >a
+     {
+         display: none;
+     }
+     .category-item {
+
+         padding: 1px;
+
+     }
+     .subscribe input[type="submit"] {
+         color: #A59C95;
+         text-transform: uppercase;
+         font-size: 15px;
+         font-weight: 700;
+         border: 2px solid #FFFFFF;
+         border-left: 2px solid orange;
+         background: #FFFFFF;
+         padding: 9px 2px;
+         outline: none;
+         font-family: 'Roboto', sans-serif;
+         -webkit-appearance: initial;
+         border-radius: 0px 7px 7px 0px;
+         margin-right: -49%;
+         margin-top: -2px;
+     }
+     .add-box-widht {
+         width: 100%;
+         margin-bottom: 10px;
+     }
+     .buy-now-width {
+         width: 100%;
+     }
+     .btn1 {
+         display: inline-block;
+         font-weight: 400;
+         text-align: center;
+         white-space: nowrap;
+         vertical-align: middle;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         border: 1px solid transparent;
+         padding: 0rem 4.188rem;
+         font-size: 0.5rem;
+         line-height: 1.5;
+         border-radius: .25rem;
+         transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+     }
+     .c-width-12 {
+         max-width: 24%;
+     }
+     .border-left-storage{
+         display: none;
+     }
+     .todays-margin
+     {
+         margin-top: 15px;
+     }
+     .c-border-right {
+         display: none;
+     }
+     .d-m-font
+     {
+         font-size: 27px;
+     }
+     .buy_hide
+     {
+         display: none;
+     }
+     .w-100 {
+         width: auto !important;
+     }
+     .footer-middle {
+         padding: 1rem 0px;
+         background-image: linear-gradient(to right, rgb(51, 161, 236), rgb(193, 36, 161), rgb(249, 112, 27));
+     }
+
+     .hr_new{
+         visibility: hidden;
+     }
+
+
+     .xiaomi_section{
+         visibility: hidden;
+         position: fixed;
+     }
+     #row_banner{
+         margin: 0px !important;
+         padding: 0px !important;
+     }
+    .text-font{
+        font-size: 14px;
+        text-align: center;
+    }
+    #zone-first{
+        display: none;
+    }
+    .zone-banner-one{
+        height: 100px;
+    }
+
+    .box_img {
+    padding: 0px;
+    width: 27px;
+    height: 24px;
+    margin: 3px 0;
+    margin-bottom: -2px;
+
+    }
+    #home-banner-zone{
+        height: 140px;
+       width: 100px;
+       padding-right:-20%;
+        padding-left:0;
+    }
+    #home-banner-area-zone{
+     margin-top: -10px;
+     margin-left: -10px;
+     margin-right: -10px;
+    }
+
+    .mobile-under-sec{
+        visibility: hidden;
+        position: fixed;
+    }
+
+
+    .compare-img{
+        height: 100px;
+        width: 100px;
+    }
+    .compare-text {
+        font-size: 12px;
+    }
+    .zone-span{
+        display: none;
+    }
+    .text-zone{
+        font-size: 12px;
+    }
+    iframe .video-youtube{
+        margin-right: 100px;
+        margin-left: -200px;
+        padding-left: 0px;
+    }
+    .video-iframe {
+        position: relative;
+        overflow:hidden ;
+        width: 100%;
+        margin-right: -4px;
+
+          /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+
+      /* Then style the iframe to fit in the container div with full height and width */
+      .responsive-iframe {
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+       .ab-text1 {
+           padding-left: 0px;
+           margin-right: -10px;
+           text-align: justify;
+       }
+       #zonebg{
+
+        background-image: none!important;
+    }
+    .mobile-sec{
+      visibility: hidden;
+      position: fixed;
+    }
+
+    .head-zone{
+        font-size: 12px;
+
+    }
+    .border_box_zone{
+        width: 120%;
+        border: 1px solid white;
+       margin-left: -5px;
+       padding-right: 20px;
+    }
+
+    .zone-word-wrap{
+        width: 100%;
+         padding: .5rem!important;
+         overflow-x: auto ; overflow-y:hidden; display: inline-block; white-space: nowrap;
+    }
+
+
+    .zone-border{
+        margin-top: 10%;
+        margin-bottom:10%;
+        margin-left:0px;
+        background:orange;
+        }
+        .zone-box{
+            width: 100%;
+            display: inline-block;
+            margin-top: 10%;
+            margin-bottom:5%;
+            margin-left:0;
+            }
+            .compare-vs{
+                margin-top: 50%;
+            }
+            .compare-buttonmar{
+                margin-left: 30px !important;
+                 width: auto;
+                 align-items: center;
+                 margin-top:30px;
+        }
+          .comparepadding{
+              padding:1rem;
+            }
+            .small-sec{
+                border-top-right-radius: 0px;
+            }
+            .small-sec-first{
+                border-top-right-radius: 7px;
+            }
+           .d1-first-img{
+               width: 45px;
+               height: 45px;
+           }
+           .d1-first-heading h6{
+               font-size: 11px;
+               font-weight: 600;
+           }
+        .zone-item-slider{
+            padding-left: 100px;
+        }
+        .zone-item-slider-first{
+            padding-left: 200px;
+        }
+
+        .zone-item-slider-third{
+            padding-left: 900px;
+        }
+        .zone-item-slider-four{
+            padding-left: 900px;
+        }
+        .badge-off{
+            padding-left: .0rem!important;
+        }
+        .footer-bottom .row{
+                 margin-left: 0px;
+        }
+
+          /* product page */
+          .seller{
+              display: inline-block;
+              width: 100%;
+          }
+            .progress-circle{
+            background: none;
+            box-shadow: none;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            position: relative;
+            margin-left: -30px;
+    }
+
+       .yellow{
+         margin-left: -21px;
+      }
+       .pink{
+          margin-left: -11px;
+      }
+     .red{
+          margin-left: 1px;
+      }
+      .prize-color{
+          font-size: 18px;
+      }
+      .avbl-text{
+        font-size: 16px;
+      }
+     .today_text{
+         font-size: 14px;
+     }
+     .customer-text{
+        font-size: 14px;
+     }
+     .pluse-icon {
+        margin: 1rem 0;
+        padding: 0 2rem;
+    }
+    .bottom-plus {
+        margin: 0rem 0;
+    }
+    .btwidth{
+        width: 100%;
+    }
+    .camparebtn{
+        display: none;
+    }
+    .specimg{
+        width: 45px;
+        height: 45px;
+    }
+    .border_box{
+        background-color: orange;
+        width: 100%;
+        border: 1px solid orange;
+        padding: -28px;
+        margin: -1px;
+        border-radius: 30px;
+        color: white;
+    }
+    /* .shop_zone_mob{
+        font-size: 10px;
+
+    } */
+    .seller-best{
+        margin-left: 0px;
+    }
+    .marginleft5{
+        margin-left: 5%;
+    }
+     }
+
+
+    @media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
+        .del-best{
+            display: block;
+        }
+
+    }
+
+        @media only screen and (min-device-width : 820px) and (max-device-width : 1024px) {
+
+            }
